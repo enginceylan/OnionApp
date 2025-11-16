@@ -47,10 +47,15 @@ namespace OnionApp.Persistance.Repositories
             if (filter != null)
                 query = query.Where(filter);
 
-            foreach (var item in includes.Split(',', StringSplitOptions.RemoveEmptyEntries))
+            if (!string.IsNullOrEmpty(includes))
             {
-                query = query.Include(item);
+                foreach (var item in includes.Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(item);
+                }
             }
+
+            
 
             return query;
         }

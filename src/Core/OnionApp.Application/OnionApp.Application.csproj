@@ -16,8 +16,6 @@
     <Folder Include="Features\Auth\Queries\" />
     <Folder Include="Features\Categories\Commands\" />
     <Folder Include="Features\Categories\Exceptions\" />
-    <Folder Include="Features\Categories\Mappers\" />
-    <Folder Include="Features\Categories\Queries\" />
     <Folder Include="Features\Categories\Validators\" />
     <Folder Include="Features\Products\Queries\GetProductsByStock\" />
     <Folder Include="Features\Suppliers\Commands\" />
@@ -26,7 +24,6 @@
     <Folder Include="Features\Suppliers\Queries\" />
     <Folder Include="Features\Suppliers\Validators\" />
     <Folder Include="Interfaces\Services\InMemoryCache\" />
-    <Folder Include="Models\Dtos\Categories\" />
     <Folder Include="Models\Dtos\Suppliers\" />
   </ItemGroup>
 

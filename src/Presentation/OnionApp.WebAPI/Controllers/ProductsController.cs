@@ -25,6 +25,7 @@ namespace OnionApp.WebAPI.Controllers
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             var test = 10;
+            var test1 = "fdsfsd";
 
             var request = new GetProductByIdQuery() { Id = id };
             return Ok(await _mediator.Send(request));
