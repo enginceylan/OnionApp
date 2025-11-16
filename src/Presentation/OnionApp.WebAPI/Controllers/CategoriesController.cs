@@ -20,6 +20,8 @@ namespace OnionApp.WebAPI.Controllers
         public async Task<IActionResult> GetAll(
             [FromQuery] GetAllActiveCategoriesQuery request)
         {
+            var test = 10;
+
             return Ok(await _mediator.Send(request));
         }
     }
