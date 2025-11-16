@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "CompanyName": "Speedy Express",
+        "Phone": "(503) 555-9831",
+        "IsActive": true,
+        "IsDeleted": false
+    },
+    {
+        "Id": 2,
+        "CompanyName": "United Package",
+        "Phone": "(503) 555-3199",
+        "IsActive": true,
+        "IsDeleted": false
+    },
+    {
+        "Id": 3,
+        "CompanyName": "Federal Shipping",
+        "Phone": "(503) 555-9931",
+        "IsActive": true,
+        "IsDeleted": false
+    }
+]

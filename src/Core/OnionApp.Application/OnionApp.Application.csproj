@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionApp.Domain\OnionApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Auth\Exceptions\" />
+    <Folder Include="Features\Auth\Mappers\" />
+    <Folder Include="Features\Auth\Queries\" />
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Categories\Exceptions\" />
+    <Folder Include="Features\Categories\Mappers\" />
+    <Folder Include="Features\Categories\Queries\" />
+    <Folder Include="Features\Categories\Validators\" />
+    <Folder Include="Features\Products\Queries\GetProductsByStock\" />
+    <Folder Include="Features\Suppliers\Commands\" />
+    <Folder Include="Features\Suppliers\Exceptions\" />
+    <Folder Include="Features\Suppliers\Mappers\" />
+    <Folder Include="Features\Suppliers\Queries\" />
+    <Folder Include="Features\Suppliers\Validators\" />
+    <Folder Include="Interfaces\Services\InMemoryCache\" />
+    <Folder Include="Models\Dtos\Categories\" />
+    <Folder Include="Models\Dtos\Suppliers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+  </ItemGroup>
+
+</Project>
